@@ -40,3 +40,19 @@ Consider that you have the following measurable parameters/flags from the satell
 
 3. Prepare a complete set of test cases in Python (as a separate script) which test the logical function and all possible transition decisions which it makes. Consider the battery as [%] (i.e. number between 0 and 100) and any dimension for the angular rate (based on how you formulate your operations).
 
+# Running the Test Cases
+
+In order to run the test cases, it was used the *pytest* tool.
+
+> $ pip install pytest
+
+To generate the csv file test report
+
+> $ pip install pytest-csv
+
+To run the tests:
+
+> $ git clone https://github.com/clgbatista/model-activity.git
+> $ cd model-activity/code
+> $ pytest --csv report.csv
+
