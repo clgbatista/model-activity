@@ -1,4 +1,4 @@
-# Modelling assumpitions
+# Modelling assumptions
 
 Consider that you have a satellite which has 5 modes of operation, these are Safe, IDLE, Downlink, Camera and Detumbling. The names suggest their intended behaviour:
 
@@ -44,15 +44,17 @@ Consider that you have the following measurable parameters/flags from the satell
 
 In order to run the test cases, it was used the *pytest* tool.
 
-> $ pip install pytest
+> pip install pytest
 
 To generate the csv file test report
 
-> $ pip install pytest-csv
+>  pip install pytest-csv
 
 To run the tests:
 
-> $ git clone https://github.com/clgbatista/model-activity.git
-> $ cd model-activity/code
-> $ pytest --csv report.csv
+> git clone https://github.com/clgbatista/model-activity.git
+
+> cd model-activity/code
+
+> pytest --csv report.csv
 
