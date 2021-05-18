@@ -1,3 +1,6 @@
+# mode_transition.feature
+# @clgbatista - May 2021
+
 FEATURE: operational mode transitions
 
     SCENARIO: The satellite as operational mode, wants to deal with an issue, in order to recover from an fault.
