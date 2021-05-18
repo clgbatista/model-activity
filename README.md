@@ -62,3 +62,7 @@ Generate the report
 
 > pytest --csv report.csv
 
+# Figures
+
+The folder 'figs/' has some figures from the approach used (BDD-like) and a representation of the Mode Transitions in FSM models using composite state.
+
