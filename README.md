@@ -33,7 +33,7 @@ Consider that you have the following measurable parameters/flags from the satell
 |SAFE      |batt <= 70% or error_flag|batt > 70% and !error_flag  |NA                         |NA                        |NA                          |
 |IDLE      |batt <= 70% or error_flag|batt > 70% and !any_flag    |batt > 70% and down_flag   |batt > 70% and img_flag   |batt > 70% and ang_rate > 1 |
 |DOWNLINK  |batt <= 70% or error_flag|batt > 70% and !down_flag   |batt > 70% and down_flag   |NA                        |NA                          |
-|CAM       |batt <= 70% or error_flag|batt > 70% and !img_flag    |NA                         ||batt > 70% and img_flag  |NA                          |
+|CAM       |batt <= 70% or error_flag|batt > 70% and !img_flag    |NA                         |batt > 70% and img_flag  |NA                          |
 |DETUMBLING|batt <= 70% or error_flag|batt > 70% and ang_rate <= 1|NA                         |NA                        |batt > 70% and ang_rate > 1 |
 
 2. Consider that the satellite measures (directly or otherwise) all quantities periodically and decides whether to remain in the same mode or transition to another one based on the transition matrix above. Prepare a logical function in Python which takes as an input the current mode and the current values of all parameters and which outputs the new mode to which the satellite should transition.
