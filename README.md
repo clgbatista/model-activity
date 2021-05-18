@@ -42,7 +42,7 @@ Consider that you have the following measurable parameters/flags from the satell
 
 # Running the Test Cases
 
-In order to run the test cases, it was used the *pytest* tool.
+In order to run the test cases, it was used the [pytest](https://docs.pytest.org/en/6.2.x/) tool.
 
 > pip install pytest
 
