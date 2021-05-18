@@ -68,5 +68,5 @@ Generate the report
 
 # Figures
 
-The folder 'figs/' has some figures from the approach used (BDD-like) and a representation of the Mode Transitions in FSM models using composite state.
+The folder [*figs/](https://github.com/clgbatista/model-activity/tree/main/figs) has some figures from the approach used (BDD-like) and a representation of the Mode Transitions in FSM models using composite state.
 
