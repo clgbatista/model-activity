@@ -1,4 +1,5 @@
 # testing_cases.py
+# @clgbatista - May 2021
 
 import pytest
 from modelexam import change_mode,pointing
@@ -195,3 +196,7 @@ def test_nopointing(actual_state):
     error_flag = 0
 # THEN: POINTING is not applicable
     assert pointing(actual_state,error_flag) == 'NA'
+    
+############################################################
+# END of the TESTS
+############################################################
