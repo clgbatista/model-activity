@@ -46,7 +46,7 @@ In order to run the test cases, it was used the [pytest](https://docs.pytest.org
 
 > pip install pytest
 
-To generate the csv file test report
+Tool that generate the csv file test report
 
 >  pip install pytest-csv
 
@@ -54,7 +54,11 @@ To run the tests:
 
 > git clone https://github.com/clgbatista/model-activity.git
 
-> cd model-activity/code
+> cd model-activity/code/
+
+> pytest -rfp
+
+Generate the report
 
 > pytest --csv report.csv
 
