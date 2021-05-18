@@ -4,6 +4,7 @@
 import pytest
 from modelexam import change_mode,pointing
 
+#########################################################################################
 # FEATURE: operational mode transitions
 
 # SCENARIO: The satellite as operational mode, wants to deal with an issue, in order to recover from an fault.
@@ -145,6 +146,7 @@ def test_detumblingtoidle(batt,ang_rate,down_flag,img_flag,error_flag):
 # THEN: satellite change to IDLE mode
     assert change_mode(actual_state,config_vector) == 'IDLE'
     
+###############################################################################################
 # FEATURE: satellite pointing
     
 # SCENARIO: the satellie as object, wants to point to the sun, in order to recharge its batteries
