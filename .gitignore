@@ -3,3 +3,6 @@ __pycache__/
 
 # ignore the .ini file
 *.ini
+
+# ignore report.csv files
+report.csv
