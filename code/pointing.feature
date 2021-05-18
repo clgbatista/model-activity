@@ -1,3 +1,6 @@
+# pointing.feature
+# @clgbatista - May 2021
+
 FEATURE: satellite pointing
     
     SCENARIO: the satellie as object, wants to point to the sun, in order to recharge its batteries
