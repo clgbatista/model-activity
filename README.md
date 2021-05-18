@@ -50,11 +50,15 @@ Tool that generate the csv file test report
 
 >  pip install pytest-csv
 
-To run the tests:
+Download or clone the repository:
 
 > git clone https://github.com/clgbatista/model-activity.git
 
+Navigate to the scripts folder:
+
 > cd model-activity/code/
+
+Run the tests:
 
 > pytest -rfp
 
