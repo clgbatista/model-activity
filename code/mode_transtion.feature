@@ -48,6 +48,8 @@ FEATURE: operational mode transitions
         WHEN: battery charge is greater than 70% and the angular rate is lesser than 1°/sec and error flag is false
         THEN: satellite change to IDLE mode
         
+# Undesired transitions
+        
     SCENARIO: The satellite as operational mode, wants to not change mode, in order to not allow trasitions.
         GIVEN: the sattelite is in DETUMBLING mode
         WHEN: downlink flag is true
